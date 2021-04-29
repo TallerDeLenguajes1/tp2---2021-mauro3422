@@ -90,6 +90,7 @@ dkms.conf
 *.wsf
 
 ### vscode ###
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
