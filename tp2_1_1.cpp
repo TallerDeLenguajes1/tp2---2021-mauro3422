@@ -15,7 +15,6 @@ for(f = 0;f<N; f++)
     }
     printf("\n");
 }
-
 getchar();
 return 0;
 }
