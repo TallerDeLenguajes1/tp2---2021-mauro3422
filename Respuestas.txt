@@ -1,0 +1,3 @@
+¿Puede ver el archivo tp2_1_2.cpp? ¿Por qué?
+
+--No, no se puede ver, por que el archivo tp2_1_2.cpp se encuentra en una rama alterna, donde puedo editar y crear otros archivos sin afectar la version original del documento.
