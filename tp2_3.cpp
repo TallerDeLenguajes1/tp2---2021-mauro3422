@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+//Para crear numeros aleatorios
 #include <ctime>
 const int Filas=15;
 void detNumPares(int **PMatriz,int Columnas,int *arreglo);
 void genVector(int *Arr,int num,int fila);
 int main(void){
+    //Para crear numeros aleatorios
     srand(time(NULL));
     //Declaro columnas e inicializo en algun numero aleatorio entre 5 y 15
     int Columnas= rand()%(15-5+1)+5;
@@ -44,9 +47,11 @@ int main(void){
     getchar();
     return 0;
 }
+
+//Determino los numeros pares en esta funcion.
 void detNumPares(int **PMatriz,int Columnas, int *arreglo){
     int cantPares=0;
-    //recorro el arreglo
+    //recorro el arreglo de matrices.
     for (int i = 0; i < Filas; i++)
     {
         for (int j = 0; j < Columnas; j++)
@@ -65,6 +70,7 @@ void detNumPares(int **PMatriz,int Columnas, int *arreglo){
     }
     
 }
+//Guardo los numeros pares.
 void genVector(int *Arr,int num,int fila){
     //guardo el dato.
     Arr[fila]=num;
